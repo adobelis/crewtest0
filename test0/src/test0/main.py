@@ -14,8 +14,10 @@ def run():
     inputs = {
         'topic': 'AI LLMs'
     }
-    hi = Test0Crew().crew().kickoff(inputs=inputs)
-    print(hi)
+    crew0 = Test0Crew()
+    crewcrew0 = crew0.crew()
+    kickoff = crewcrew0.kickoff(inputs=inputs)
+    return crew0, crewcrew0, kickoff
 
 
 def train():

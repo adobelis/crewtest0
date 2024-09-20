@@ -42,10 +42,13 @@ class Test0Crew():
 	@crew
 	def crew(self) -> Crew:
 		"""Creates the Test0 crew"""
+		print("Crew with logging")
 		return Crew(
 			agents=self.agents, # Automatically created by the @agent decorator
 			tasks=self.tasks, # Automatically created by the @task decorator
 			process=Process.sequential,
 			verbose=True,
+			output_log_file="/Users/arthur/www/personal/experiments/crewai-basic/test0/logs/output.log",
+			full_output=True,
 			# process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
 		)

@@ -3,8 +3,10 @@ research_task:
     Conduct a thorough research about {topic}
     Make sure you find any interesting and relevant information given
     the current year is 2024.
+    Please include all web searches you perform and any websites you visit during your research.
   expected_output: >
     A list with 3 bullet points of the most relevant information about {topic}
+    For each bullet point, please include a list of all web searches performed and websites visited.
   agent: researcher
 
 reporting_task:

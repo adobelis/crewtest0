@@ -18,6 +18,12 @@ Next, navigate to your project directory and install the dependencies:
 ```bash
 crewai install
 ```
+
+Arthur's note: this seems to fail on a Mac (Error 2: python not found) unless you create a symlink to `python`:
+```
+$ sudo ln -s $(which python3) /usr/local/bin/python
+```
+
 ### Customizing
 
 **Add your `OPENAI_API_KEY` into the `.env` file**
