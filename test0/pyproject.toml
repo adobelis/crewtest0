@@ -8,6 +8,7 @@ authors = ["Your Name <you@example.com>"]
 python = ">=3.10,<=3.13"
 crewai = { extras = ["tools"], version = ">=0.55.2,<1.0.0" }
 ipykernel = "^6.29.5"
+serpapi = "^0.1.5"
 
 
 [tool.poetry.scripts]

@@ -14,6 +14,7 @@ class Test0Crew():
 	@agent
 	def researcher(self) -> Agent:
 		return Agent(
+			
 			config=self.agents_config['researcher'],
 			# tools=[MyCustomTool()], # Example of custom tool, loaded on the beginning of file
 			verbose=True,
