@@ -15,11 +15,8 @@ load_dotenv()
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 
-<<<<<<< HEAD
 #os.environ["OPENAI_API_KEY"] = "my-api-key" # <-- removed for security reasons (git commit)
-=======
 SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
->>>>>>> 710201e (cleaning up auth code using amend)
 client = OpenAI()
 
 uri = "mongodb+srv://cluster0.tjii5rx.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority&appName=Cluster0"
